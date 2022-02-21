@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: monospace;
+}
+#container{
+    display: flex;
+}
+#main{
+    flex: 8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#main > div:first-child{
+
+}
+
+#main > div:last-child{
+    /* border: 1px solid red; */
+    width: 90%;
+    text-align: center;
+}
+
+#main > div:last-child > h1{
+    padding: 10px;
+}
+
+#main > div:last-child > h2{
+    padding: 5px;
+}
+
+#main > div:last-child > h3{
+    padding: 20px;
+    color: gray;
+    text-align: right;
+}

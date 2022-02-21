@@ -1,0 +1,29 @@
+#sidebar{
+    flex: 2;
+    text-align: center;
+    background: #222;
+    height: 100vh;
+}
+#sidebar > div{
+    margin: 50px 20px;
+}
+#sidebar > div > a{
+    color: white;
+    font-size: 30px;
+}
+#sidebar > div > a:hover{
+    color: red;
+    font-size: 30px;
+    cursor: pointer;
+}
+#sidebar > div > input[type="search"]{
+    width: 100%;
+    padding: 10px 5px 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+#sidebar > div > input[type="search"]:focus{
+    outline: none;
+
+}

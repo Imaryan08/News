@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: monospace;
+}
+#container{
+    display: flex;
+}
+#main{
+    flex: 8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#main > div{
+    margin: 20px;
+    width: 29%;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#main > div:hover{
+    transform: scale(1.1);
+}
+
+#main > div > div {
+    /*  */
+    margin-bottom: 10px;
+}
+#main > div > div > img{
+    width: 100%;
+    object-fit: contain;
+}
+#main > div > h2{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}

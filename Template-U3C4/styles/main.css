@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: monospace;
+}
+#container{
+    display: flex;
+}
+
+/* #sidebar{
+    flex: 2;
+    text-align: center;
+    background: #222;
+    height: 100vh;
+}
+#sidebar > div{
+    margin: 50px 20px;
+}
+#sidebar > div > a{
+    color: white;
+    font-size: 30px;
+}
+#sidebar > div > a:hover{
+    color: red;
+    font-size: 30px;
+    cursor: pointer;
+}
+#sidebar > div > input[type="search"]{
+    width: 100%;
+    padding: 10px 5px 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+#sidebar > div > input[type="search"]:focus{
+    outline: none;
+
+} */
+#main{
+    flex: 8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#main > div{
+    margin: 20px;
+    width: 29%;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#main > div:hover{
+    transform: scale(1.1);
+}
+
+#main > div > div {
+    /*  */
+    margin-bottom: 10px;
+}
+#main > div > div > img{
+    width: 100%;
+    object-fit: contain;
+}
+#main > div > h2{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
